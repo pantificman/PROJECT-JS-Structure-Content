@@ -51,7 +51,7 @@ console.log(text); */
     return arguments.length;
 }
 NewFunct(3,4); */
- function sumAll(){
+ /* function sumAll(){
     let i,
         sum = 0;
         for (i = 0; i < arguments.length; i++){
@@ -69,4 +69,8 @@ NewFunct(3,4); */
         return this.firstName + " " + this.lastName;
     }
  };
-myObj.fullName();
+myObj.fullName(); */
+
+let nameUser = "John";
+alert(`hello   ${nameUser}`);
+

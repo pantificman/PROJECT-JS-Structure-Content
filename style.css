@@ -34,3 +34,12 @@ button{
     justify-content: center;
     text-align: center;
 } */
+#pWrap{
+    display:flex;
+    justify-content: center;
+}
+
+#demo{
+    padding: 0.3em;
+    background-color:chartreuse;
+}
