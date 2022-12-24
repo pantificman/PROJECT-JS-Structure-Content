@@ -4,7 +4,7 @@
     b = String(b);
  } */
  
- let arr = [];
+ /* let arr = [];
  let exmpl=arr.length;
  arr[0] = "secElm";
  arr[1] = 1;
@@ -39,4 +39,34 @@ while(cars[i]){
     text += cars[i] + "<br>";
     i++;
 }
-console.log(text);
+console.log(text); */
+/* let cars = ["BMW","Volvo", "Porsch", "Alfa Romeo", "Ferrari", "Opel"];
+let text = "";
+for(let i = 0; i < cars.length; i++){
+    text += cars[i]  + "<br>";
+}
+console.log(text); */
+
+/* function NewFunct(a,b){
+    return arguments.length;
+}
+NewFunct(3,4); */
+ function sumAll(){
+    let i,
+        sum = 0;
+        for (i = 0; i < arguments.length; i++){
+            sum += arguments[i];
+        }
+        return sum;
+ }
+ let x;
+ x = sumAll(1, 123, 500, 115, 42, 82);
+
+ let myObj = {
+    firstName: "John",
+    lastName: "Smith",
+    fullName: function (){
+        return this.firstName + " " + this.lastName;
+    }
+ };
+myObj.fullName();
