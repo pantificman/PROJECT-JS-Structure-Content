@@ -71,6 +71,31 @@ NewFunct(3,4); */
  };
 myObj.fullName(); */
 
+          //Interpolation
 let nameUser = "John";
-alert(`hello   ${nameUser}`);
+alert(`hello ${nameUser}`);
+
+let x = "quick";
+x.toString();
+x.toUpperCase();
+
+let a = "Joe";
+const b = new String("Joe");
+if (a === b){
+    console.log("Nuimbers is eqiual");
+} else {
+    console.log("numbers is not equal");
+}
+
+let d = new Date("March 25 2015");
+console.log(d);
+
+d.getData();
+d.getDay();
+d.getFullYear();
+d.getUTCMonth();
+
+
+
+
 
