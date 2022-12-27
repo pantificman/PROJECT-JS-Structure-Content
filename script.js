@@ -72,7 +72,7 @@ NewFunct(3,4); */
 myObj.fullName(); */
 
           //Interpolation
-let nameUser = "John";
+/* let nameUser = "John";
 alert(`hello ${nameUser}`);
 
 let x = "quick";
@@ -95,7 +95,67 @@ d.getDay();
 d.getFullYear();
 d.getUTCMonth();
 
+var person = {
+    userName: "Tonny",
+    userLastName: "Hawks",
+    age: "40"
+};
+console.log(person);
 
 
+var f = 1; var e = 2; if (a = b) {//выполнить некоторый код
+} */
 
+/* msgBox("khg");
+alertBox("jhknm");
+window.SharedWorker("ghghb");
+alert("gyjgh"); */
 
+//conditions
+
+/* let nam = 25;
+
+switch(nam){
+    case 22: console.log("error");
+    break;
+    case 45: console.log("more");
+    break;
+    case 25: console.log("ok");
+    break;
+    default: console.log("not today");
+}
+
+//ternary operator
+(nam == 50)? console.log("right") : console.log("not right");
+
+let num2 = 55;
+for (let i = 0; i < 10; i++){
+    console.log(num2);
+    num2++;
+} */
+
+/* let str = "",
+    num2 = 7;
+for (let i = 0; i < num2; i++){
+    console.log(str = str + "*");
+    
+}
+
+function showThis(f, r){
+    console.log(this);
+}
+showThis(5,6);
+
+const myBtn = document.getElementById("btnClick");
+console.log("myBtn");
+
+const myPar = document.getElementById("pWrap");
+const content = myPar.innerHTML;
+console.log(content); */
+
+var mainTitle = document.getElementById("mainTitle");
+console.log("This is an element of type: ", mainTitle.nodeType);
+console.log("The inner HTML is ", mainTitle.innerHTML);
+console.log("There are this many child objects", mainTitle.childNodes);
+
+document.getElementById("mainTitle").innerHTML = "This is a changed Title";
