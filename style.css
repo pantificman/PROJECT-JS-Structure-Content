@@ -43,3 +43,15 @@ button{
     padding: 0.3em;
     background-color:chartreuse;
 }
+
+#imgWrap2{
+    display: flex;
+    justify-content: center;
+}
+
+#imgProp{
+    /* border: solid 0.1em rgb(196, 193, 237); */
+    border-radius:0.5em;
+    box-shadow: 0em 0em 0.7em;
+    
+}

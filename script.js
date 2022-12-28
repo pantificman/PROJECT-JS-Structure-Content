@@ -1,3 +1,4 @@
+"use strict";
 //Implement a function which convert the given boolean value into its string representation.
 //Note: Only valid inputs will be given.
 /* function booleanToString(b){
@@ -168,9 +169,59 @@ let books = document.getElementById("books");
 books.appendChild(mylistItem);
  */
 
-document.getElementById("btnClick").onclick = function (){alert("Hi");};
+/* document.getElementById("btnClick").onclick = function (){alert("Hi");};
 
 document.getElementById("homeBtn").addEventListener("click", function(){prompt("Where do you live?");});
 document.getElementById("homeBtn").addEventListener("mouseover", function()
         {document.getElementById("homeBtn").style.backgroundColor = "orange";
-    });
+    }); */
+/* let myImage = document.getElementById("imgProp");
+let imageArray = ["img/1.jpg","img/2.jpg", "img/3.jpg", "img/4.jpg"];
+let imageIndex = 0;
+
+function changeImage(){
+    myImage.setAttribute("src", imageArray[imageIndex]);
+    imageIndex++;
+    if(imageIndex >= imageArray.length){
+        imageIndex = 0;
+    }
+}
+
+setInterval(changeImage, 5000); */
+
+const div1 = document.createElement("div1");
+div1.classList.add("wrapper");
+const body1 = document.body;
+body1.appendChild(div1);
+
+const header1 = document.createElement("h1");
+header1.textContent = "DOM (Document Object Model)";
+
+div1.insertAdjacentElement("beforebegin", header1);
+
+const ul = `
+         <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+         </ul>
+`;
+div1.innerHTML = ul;
+
+const img1 = document.createElement("img");
+img1.src = "img/2.jpg";
+img1.width = 240;
+img1. classList.add("super");
+img1.alt = "super Man";
+div1.appendChild(img1);
+//??????????????????????????????????
+/* document.getElementsByClass("super").style.border = "solid 3px red"; */
+/* img1.super.style.borderRadius = 0.5; */
+
+const div2 = document.createElement("div2");
+body1.appendChild(div2);
+const img2 = document.createElement("img2");
+const elemHTML = `
+      <img id = "imageId" src = img/3.jpg alt = "">
+`;
+div2.appendChild = elemHTML;
