@@ -153,9 +153,24 @@ const myPar = document.getElementById("pWrap");
 const content = myPar.innerHTML;
 console.log(content); */
 
-var mainTitle = document.getElementById("mainTitle");
+/* var mainTitle = document.getElementById("mainTitle");
 console.log("This is an element of type: ", mainTitle.nodeType);
 console.log("The inner HTML is ", mainTitle.innerHTML);
 console.log("There are this many child objects", mainTitle.childNodes);
 
-document.getElementById("mainTitle").innerHTML = "This is a changed Title";
+document.getElementById("mainTitle").innerHTML = "This is a changed Title"; */
+
+/* let mylistItem = document.createElement("li");
+let myTextNode = document.createTextNode("The Hobbit");
+mylistItem.appendChild(myTextNode);
+
+let books = document.getElementById("books");
+books.appendChild(mylistItem);
+ */
+
+document.getElementById("btnClick").onclick = function (){alert("Hi");};
+
+document.getElementById("homeBtn").addEventListener("click", function(){prompt("Where do you live?");});
+document.getElementById("homeBtn").addEventListener("mouseover", function()
+        {document.getElementById("homeBtn").style.backgroundColor = "orange";
+    });
