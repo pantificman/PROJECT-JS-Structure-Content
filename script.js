@@ -236,13 +236,32 @@ newDiv.appendChild(newPar);
 document.body.appendChild(newDiv);
 
 newImg.src = "img/2.jpg";
-newImg.setAttribute("id", "imgId");
+newImg.id ="imgIdnew";
+/* newImg.setAttribute("id", "imgId"); */
 newDiv.appendChild(newImg);
 
-const idImg = document.getElementById("imgId");
+const idImg = document.getElementById("imgIdnew");
 idImg.style.borderRadius = "7em";
+idImg.style.boxShadow = "0 0 0.3em";
+idImg.style.margin = "15px";
+newDiv.style.display = "flex";
+newDiv.style.justifyContent = "center";
 
 console.log(document);
 console.log(newPar);
 console.log(newDiv);
 console.log(newImg);
+
+/* function myFunction (){
+    const obj = document.getElementById("mainTitle");
+    obj.innerHTML = "Hello JQuery";
+}
+myFunction(); */
+//another variant with JQuery
+function myqFunction (){
+    $("#demo").html("Hello JQ");
+}
+$(document).ready(myqFunction);
+
+
+
