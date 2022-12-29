@@ -188,8 +188,9 @@ function changeImage(){
 }
 
 setInterval(changeImage, 5000); */
+//--------------------------------------------------------------------------------------------
 
-const div1 = document.createElement("div1");
+/* const div1 = document.createElement("div1");
 div1.classList.add("wrapper");
 const body1 = document.body;
 body1.appendChild(div1);
@@ -218,10 +219,30 @@ div1.appendChild(img1);
 /* document.getElementsByClass("super").style.border = "solid 3px red"; */
 /* img1.super.style.borderRadius = 0.5; */
 
-const div2 = document.createElement("div2");
+/* const div2 = document.createElement("div2");
 body1.appendChild(div2);
 const img2 = document.createElement("img2");
 const elemHTML = `
       <img id = "imageId" src = img/3.jpg alt = "">
 `;
-div2.appendChild = elemHTML;
+div2.appendChild = elemHTML; */
+
+const newDiv = document.createElement("div");
+const newPar = document.createElement("p");
+const newImg = document.createElement("img");
+
+newPar.innerText = "This is a new Paragraph";
+newDiv.appendChild(newPar);
+document.body.appendChild(newDiv);
+
+newImg.src = "img/2.jpg";
+newImg.setAttribute("id", "imgId");
+newDiv.appendChild(newImg);
+
+const idImg = document.getElementById("imgId");
+idImg.style.borderRadius = "7em";
+
+console.log(document);
+console.log(newPar);
+console.log(newDiv);
+console.log(newImg);
