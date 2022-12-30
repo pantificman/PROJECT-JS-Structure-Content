@@ -228,18 +228,24 @@ const elemHTML = `
 div2.appendChild = elemHTML; */
 
 const newDiv = document.createElement("div");
+const newDiv2 = document.createElement("div");
 const newPar = document.createElement("p");
 const newImg = document.createElement("img");
 
 newPar.innerText = "This is a new Paragraph";
-newDiv.appendChild(newPar);
+newDiv2.appendChild(newPar);
 document.body.appendChild(newDiv);
+document.body.appendChild(newDiv2);
 
 newImg.src = "img/2.jpg";
 newImg.id ="imgIdnew";
+newPar.id = "parId";
 /* newImg.setAttribute("id", "imgId"); */
 newDiv.appendChild(newImg);
 
+const parId = document.getElementById("parId");
+parId.style.border = "none";
+parId.style.boxShadow = "0 0 0.3em" ;
 const idImg = document.getElementById("imgIdnew");
 idImg.style.borderRadius = "7em";
 idImg.style.boxShadow = "0 0 0.3em";
@@ -247,10 +253,6 @@ idImg.style.margin = "15px";
 newDiv.style.display = "flex";
 newDiv.style.justifyContent = "center";
 
-console.log(document);
-console.log(newPar);
-console.log(newDiv);
-console.log(newImg);
 
 /* function myFunction (){
     const obj = document.getElementById("mainTitle");
