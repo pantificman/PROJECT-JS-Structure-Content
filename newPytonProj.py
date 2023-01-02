@@ -27,3 +27,10 @@ x = car.items()
 car["year"] = 1999
 
 print(x)
+
+float(12)
+print(float(12))
+print(int(12.2))
+
+listExample = ["John", "Robert", "Hillary", "Angus", "David"]
+print(listExample[3] + " is a great employee")
