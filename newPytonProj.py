@@ -34,3 +34,29 @@ print(int(12.2))
 
 listExample = ["John", "Robert", "Hillary", "Angus", "David"]
 print(listExample[3] + " is a great employee")
+
+listExample = listExample + ["Jim"]
+print(listExample)
+
+listExample2 = [45, 2, 454, 24, 5]
+print(listExample + listExample2)
+
+listExample.insert(0, "James")
+print(listExample)
+
+del(listExample[3])
+print(listExample)
+
+listExample.remove("Robert")
+print(listExample)
+
+for x in listExample:
+  print(x)
+
+  if "David" in listExample:
+    print("This employee is on the list")
+
+listExample3 = ["one", "two", "three", "four"]
+
+print(len(listExample3))
+
