@@ -1,0 +1,3 @@
+noname = "dddd"
+
+input(noname)
