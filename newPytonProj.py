@@ -216,13 +216,55 @@
 # else:
 #     print("not today")
 
-for i in range(1, 8):
-    print(i)
+# for i in range(1, 8):
+#     print(i)
 
-word = "Revolution"
-for i in word:
-    if i == "o":
-        print("one 'o'")
-        break
+count = 0
+# word = "Revolution"
+# for i in word:
+#     if i == "o":
+#       count += 1
+# print(count)
+
+# while count < 3:
+#     print(count, "letters 'o'")
+#     count += 1
+
+while count < 3:
+    print (count)
+    count += 1
+num = [45, "Wellcome", True, 56.4, 7, 10, 30]
+
+num[2] = "Change"
+print(num)
+
+numbers = [3, 6, 7]
+numbers.append(100)
+numbers.insert(3, True)
+# numbers.extend(6, 7, 8)
+numbers.sort()
+numbers.pop(3)
+numbers.remove(1)
+print(numbers)
+
+num2 = [4, 6, 9, "50", "True"]
+for el in  num2:
+    el *= 2
+    print(el)
+
+num3 = 3
+while num3 < 10:
+    print(num3)
+    num3 += 1
+num4 = 4
+for i in num4:
+    i += 1
+    print()
+
+strnew = "Football, basketball, voleyball"
+
+strlist = strnew.split(", ")
+
+print(strlist)
 
 
