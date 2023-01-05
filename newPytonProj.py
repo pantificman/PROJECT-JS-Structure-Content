@@ -176,6 +176,53 @@
 # while a < 5:
 #   print("ok")
 #   a+=1
-colors = ['blue', 'red', 'pink']
-for x in colors:
-  print(x)
+# colors = ['blue', 'red', 'pink']
+# for x in colors:
+#   print(x)
+
+# print("imfo:", 6, 0, "\ntoo", sep=" ")
+
+# print("Second Lin\" ")
+
+# print(5 ** 3)
+
+# print("total:", min(5, 8, 5, -4))
+# noname = "dddd"
+
+# num = 4
+# print("Result", num)
+
+# del num
+# print(num)
+
+# str1 = "dfhdh"
+# bool = True
+# int = 56
+# int2 = 45.7
+# print("I hope", str1, str(int), str(int2), sep=" ")
+
+# if 5 == 5:
+#   print("yes")
+#   print("true")
+
+# num = 67
+
+# if num > 0 and num < 67:
+#     print("ok")
+# elif num < 0:
+#     print("no correrct")
+# elif num == 67:
+#     print("equal")
+# else:
+#     print("not today")
+
+for i in range(1, 8):
+    print(i)
+
+word = "Revolution"
+for i in word:
+    if i == "o":
+        print("one 'o'")
+        break
+
+

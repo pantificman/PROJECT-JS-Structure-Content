@@ -1,3 +1,0 @@
-noname = "dddd"
-
-input(noname)
