@@ -290,11 +290,40 @@
 #     print(word)
 # test_funct()
 
-def sum(a, b):
-    res = a + b
-    print("Result:", res)
+# def sum(a, b):
+#     res = a + b
+#     print("Result:", res)
 
-sum(5,7)
-sum("H", "i")
+# sum(5,7)
+# sum("H", "i")
+
+# nums1 = [5, 7, 1, 0, 4]
+
+# min = nums1[0]
+# for el in nums1:
+#     if el < min:
+#         min = el
+# print(min)
+
+# fun1 = lambda x, y: x*y
+# fun2 = fun1(5,2)
+# print(fun2)
+
+# file = open("data/text.txt", "w")
+
+# file.write("hello")
+
+# file.close()
+
+import datetime as d, sys, os, platform
+
+print(d.datetime.now().time())
+
+print(platform.system())
+
+from math import sqrt as s
+print(s)
+
+
 
 
